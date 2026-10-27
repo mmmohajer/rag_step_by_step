@@ -7,7 +7,7 @@ from openai import OpenAI
 load_dotenv(Path(__file__).parent.parent / ".env")
 
 
-class Rag:
+class Llm:
     def __init__(
         self,
         embedding_model: str = "text-embedding-3-large",

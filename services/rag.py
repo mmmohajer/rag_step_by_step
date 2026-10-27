@@ -1,7 +1,7 @@
 from pathlib import Path
 from bs4 import BeautifulSoup
 
-from services.llm import Rag as Llm
+from services.llm import Llm
 
 SOURCES_DIR = Path(__file__).parent.parent / "sources"
 VOICE_SUFFIXES = {".mp3", ".wav", ".m4a"}
